@@ -12,6 +12,7 @@
 
 // $color = array("white", "green", "red","blue", "black");
 // echo "I have $color[1] bag and a $color[0] shirt";
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,13 +25,13 @@
 
 <body>
     <table width="270px" cellspacing="0px" cellpadding="0px" border="1px">
-        <!-- cell 270px wide (8 columns x 60px) -->
-        <?php
+        
+         <?php
         for ($row = 1; $row <= 8; $row++) {
             echo "<tr>";
             for ($col = 1; $col <= 8; $col++) {
                 $sum = $row + $col;
-                
+
                 if ($sum % 2 == 0) {
                     echo "<td height=30px width=30px bgcolor=#FFFFFF></td>";
                 } else {
@@ -39,7 +40,8 @@
             }
             echo "</tr>";
         }
-        ?>
+        ?> 
+        
     </table>
 
 </body>
