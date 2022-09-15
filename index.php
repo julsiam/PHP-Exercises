@@ -126,5 +126,14 @@
 
 //Largest Number/ Max
 
-$largestNum = (max(744444438, 38483875, 28463));
-echo "The largest number is: ".$largestNum;
+// $largestNum = (max(744444438, 38483875, 28463));
+// echo "The largest number is: ".$largestNum;
+
+$base1 = 10;
+	for($i=1; $i<=10; $i++)   
+{
+$product1 = $i*$base1;
+
+echo "$base1 * $i = $product1" ; 
+echo "<br>";
+}	

@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    
     <table width="270px" cellspacing="0px" cellpadding="0px" border="1px">
         
          <?php
@@ -29,21 +30,7 @@
         
     </table>
 
-</body>
-// function sampleFunction($num1, $num2){
-// if ($num1 == $num2){
-// return ($num1 + $num2)*3;
-// }
-// return ($num1 + $num2);
-// }
-// echo sampleFunction(2,4);
-
-// function sampleFunction($num1, $num2){
-// return($num1 == 30) || ($num2);
-// }
-
-// $color = array("white", "green", "red","blue", "black");
-// echo "I have $color[1] bag and a $color[0] shirt";
+    </body>
 
 
 </html>
